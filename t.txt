@@ -1,4 +1,4 @@
-id	nev	helyezes	ev	helyszin
+id	orszag	helyezes	ev	helyszin
 111	Belgium	13	1938	Franciaország
 112	Mexikó	13	1998	Franciaország
 113	Hollandia	14	1938	Franciaország

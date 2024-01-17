@@ -129,8 +129,9 @@ group by helyezes
 18 A különböző országok pontversenyeznek is: Az első helyezés 6 pontot ér, a második 5-öt, ... , az hatodik 1 pontot, minden további 
    helyezés pedig 0 pontot ér. Add meg, hogy mely országnak hány pontja van így!
 
-select nev
+select orszag, sum(iif(helyezes =1, 6 iif(helyezes =2, 5 (helyezes =3, 4 (helyezes =4, 3(helyezes =5, 2 (helyezes =6, 1, 0))))))
 from t
+group by orszag
 ;
 
 19 Mely országnak van a legtöbb pontja a fent leírt pontversenyben?
